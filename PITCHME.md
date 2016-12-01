@@ -10,7 +10,7 @@
 ![Image-Absolute](assets/pyramidal.jpg)
 
 #HSLIDE
-## About the project
+## About
 - Self-host or Piwik Cloud
 - LAMP stack
 - FOSS, modules
@@ -40,7 +40,7 @@
 Visits (Sessions), Pageviews<br>
 Bounce Rate
 <br>
-Visit & Action (views, events) scopes ,
+Visit & Action (views, events) scopes
 <br>
 Custom Dimensions for reports and segments
 

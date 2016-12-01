@@ -24,11 +24,11 @@
 #HSLIDE
 ## Maximize Privacy in Piwik
 #### by...minimizing data collected
-1. Anonymize IPs after 2nd octet
-   e.g. 208.55.xxx.xxx
+1. Anonymize IPs after two octets 
+<br> e.g. 208.55.xxx.xxx
 2. Set retention period:
-..*raw visitor logs for short time
-..*archive into aggregated reports
+..* raw visitor logs for short time
+..* archive into aggregated reports
 3. Offer opt-out link (cookie)
 4. TLS on tracker and tracked site
 

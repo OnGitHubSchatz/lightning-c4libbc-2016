@@ -12,9 +12,8 @@
 ## About the project
 - Self-host or Piwik Cloud
 - LAMP stack
-- FOSS, active on GitHub
+- FOSS, modules
 - Privacy focus
-- Contributed modules
 
 #HSLIDE
 ### Privacy virtues
@@ -23,22 +22,22 @@
 - Honours DoNotTrack
 
 #HSLIDE
-## Maximize User Privacy
-#### by...minimizing data collected
-1. Anonymize IPs after two octets 
+## Maximize Privacy
+##### by...minimizing data collected
+1. Anonymize IPs 
 <br> e.g. 208.55.xxx.xxx
 <br>
 2. Set retention period:
-  * raw visitor logs for short time
-  * archive into aggregated reports
+  * raw logs
+  * archived reports
   <br>
-3. Offer opt-out link (cookie)
-4. TLS on tracker and tracked site
+3. Offer opt-out
+4. TLS
 
 #HSLIDE
 ## Standard Metrics
 Visits (Sessions), Pageviews<br>
-Bounce Rate, Landing pages
+Bounce Rate
 <br>
 Visit & Action (views, events) scopes ,
 <br>
@@ -74,7 +73,6 @@ $(".views-field-field-s3-file-upload").click(function() {
 	_paq.push(['setCustomDimension', 1, 'dimensionValue']);
 });
 ```
-Then segment, no scope needed for dimensions!
 
 #HSLIDE
 ## Goals /Conversions
@@ -99,8 +97,7 @@ vs Piwik's community spamlist
 #HSLIDE
 ##Overall
 1. Strong Privacy
-2. Standard + Unique Metrics
-3. Configuration
-4. API / Custom
-5. Graphs meh
+2. Mix of Metrics
+3. Some config
+4. Graphs meh
 

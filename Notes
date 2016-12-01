@@ -1,0 +1,47 @@
+Piwik - Alternative Web Analytics
+
+self-hosted option
+or cloud with Piwik Cloud http://piwik.pro (The Feds seem to like it)
+	privacy++
+
+	EU https://en.wikipedia.org/wiki/Directive_on_Privacy_and_Electronic_Communications#Cookies
+	Self-hosted cookie on your own domain rather than 3rd-party!
+
+	how much PII/SPI -- anonyimize IPs for Geolocation
+
+	fingerprinting (combination of unique factors about your browser version, its plugins and unique config, your machine etc')
+		visitor log -> archive into aggregate reports that just tallies rather than following individuals, clear those tables
+
+	honours DoNotTrack flag (opt-in on most browsers) in GA done manually 
+
+	f (window.navigator.doNotTrack !== '1') {
+
+	or create an opt-out link (cookie-based)
+
+	not possible to infer screen-reader usage from user-agent, browsers and devices similarly fraught, that's why we do feature-detection
+
+What is Google doing with your aggregate data? Training AIs?
+Better visualization, let's improve this in Piwik.
+
+while Piwik can’t be integrated with Google AdWords or AdSense
+	does anyone in our sector actually use these in marketing?
+
+Overall bounce rates, bounce rates per page
+Piwik: landing pages -> short or long session
+
+Referrer spam - community-maintained blacklist included in Piwik releases or on github: https://github.com/piwik/referrer-spam-blacklist
+Does GA even care about this if you're not a paying customer?
+
+Premium features in Piwik Marketplace - whopping total of 3 non-free plugins: https://plugins.piwik.org/premium
+Everything else is open source
+
+
+Custom Variables -> Custom Dimensions
+	Regex
+Campaigns
+Goals - and the click path to reach that goal
+
+Row Evolution via insights - overall & change within a time period, compared with last period
+Transitions
+
+What we do on NNELS so far.

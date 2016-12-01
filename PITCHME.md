@@ -6,6 +6,8 @@
 <span style="font-size: 0.6em; font-style: italic; float: right;">Schatz
 <br>BC Libraries Cooperative</span>
 
+#VSLIDE?image=assets/pyramidal.jpg
+
 #HSLIDE
 ## About the project
 - Self-host or Piwik Cloud
@@ -25,9 +27,11 @@
 #### by...minimizing data collected
 1. Anonymize IPs after two octets 
 <br> e.g. 208.55.xxx.xxx
+<br>
 2. Set retention period:
   * raw visitor logs for short time
   * archive into aggregated reports
+  <br>
 3. Offer opt-out link (cookie)
 4. TLS on tracker and tracked site
 
@@ -58,12 +62,13 @@ Pare down to basic wigets + customize
 ## Custom metrics
 <br>
 ###Calls tracker from:
-* Admin UI: Regex on URL, page title in Action scope
-* Client-side API (JS)
-* Server-side (PHP)
-  * Modules for Drupal/WordPress etc
-* Query string param!
+* Admin UI (regex)
+* Query string param (http)
+* Client-side API (js)
+* Server-side (php)
 
+#HSLIDE
+###_gaq to _paq
 ```JavaScript
 $(".views-field-field-s3-file-upload").click(function() {
 	_paq.push(['setCustomDimension', 1, 'dimensionValue']);
@@ -73,7 +78,7 @@ Then segment, no scope needed for dimensions!
 
 #HSLIDE
 ## Goals /Conversions
-### Outcomes you are looking for
+### 'outcome conditions'
 * Session -> downloaded more than 3 items
 * Session -> watched tutorial
 * Referred by email -> bookmarked items for later
@@ -82,16 +87,20 @@ Then segment, no scope needed for dimensions!
 ## Metric x Goal
 ![Image-Absolute](assets/socialreferrals.png)
 
-
 #HSLIDE
 ## Data quality
 Referrer spam
 vs Piwik's community spamlist
-Does GA even care?
+<br>Does GA even care?
 
 #VSLIDE
 (No.)
 
 #HSLIDE
-More than just linegraphs/sparklines<br>
-Let's build it
+##Overall
+1. Strong Privacy
+2. Standard + Unique Metrics
+3. Configuration
+4. API / Custom
+5. Graphs meh
+

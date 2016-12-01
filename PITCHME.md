@@ -51,7 +51,11 @@ Pare down to basic wigets + customize
 ![Image-Absolute](assets/dashboard.png)
 
 #HSLIDE
-## Custom Dimension
+## Transition
+![Image-Absolute](assets/transition.png)
+
+#HSLIDE
+## Custom metrics
 <br>
 ###Calls tracker from:
 * Admin UI: Regex on URL, page title in Action scope
@@ -78,14 +82,16 @@ Then segment, no scope needed for dimensions!
 ## Metric x Goal
 ![Image-Absolute](assets/socialreferrals.png)
 
+
 #HSLIDE
 ## Data quality
-### Referrer spam vs community-maintained spamlist
+Referrer spam
+vs Piwik's community spamlist
 Does GA even care?
 
 #VSLIDE
 (No.)
 
 #HSLIDE
-More varied viz - let's build it
-:shipit:
+More than just linegraphs/sparklines<br>
+Let's build it

@@ -6,7 +6,8 @@
 <span style="font-size: 0.6em; font-style: italic; float: right;">Schatz
 <br>BC Libraries Cooperative</span>
 
-#VSLIDE?image=assets/pyramidal.jpg
+#VSLIDE
+![Image-Absolute](assets/pyramidal.jpg)
 
 #HSLIDE
 ## About the project

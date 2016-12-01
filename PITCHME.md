@@ -16,10 +16,9 @@
 
 #HSLIDE
 ### Privacy virtues
-- Self-hosted -> data control, 1st-party cookie
-- PII/SPI safeguards by default
-- Honours DoNotTrack at tracker level
-  - GA requires manual JS check
+- Self-hosted -> data control
+- PII/SPI friendly defaults
+- Honours DoNotTrack
 
 #HSLIDE
 ## Maximize User Privacy
@@ -35,10 +34,11 @@
 #HSLIDE
 ## Standard Metrics
 Visits (Sessions), Pageviews<br>
-Bounces, "Landing pages"
+Bounce Rate, Landing pages
 <br>
-Visit & Action (views, events) scopes
-Custom Variables, Dimensions for reports and segments
+Visit & Action (views, events) scopes ,
+<br>
+Custom Dimensions for reports and segments
 
 #VSLIDE
 Simple custom variable tally

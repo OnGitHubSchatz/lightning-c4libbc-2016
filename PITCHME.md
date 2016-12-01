@@ -1,10 +1,10 @@
 #VSLIDE
 
-## Piwik
+![Image-Relative](https://upload.wikimedia.org/wikipedia/commons/f/f4/Piwik_2.0_logo.svg)
 ### Alternative Web Analytics
 
-<span style="font-style: italic; float: right;">Schatz
-BC Libraries Cooperative</span>
+<span style="font-size: 0.6em; font-style: italic; float: right;">Schatz
+<br>BC Libraries Cooperative</span>
 
 #HSLIDE
 ## About the project
@@ -19,13 +19,13 @@ BC Libraries Cooperative</span>
 - Self-hosted -> data control, 1st-party cookie
 - PII/SPI safeguards by default
 - Honours DoNotTrack at tracker level
-..* GA requires manual JS check
+  - GA requires manual JS check
 
 #HSLIDE
 ## Maximize Privacy in Piwik
 #### by...minimizing data collected
 1. Anonymize IPs after 2nd octet
-	e.g. 208.55.xxx.xxx
+   e.g. 208.55.xxx.xxx
 2. Set retention period:
 ..*raw visitor logs for short time
 ..*archive into aggregated reports
@@ -53,30 +53,29 @@ Pare down to basic wigets + customize
 #HSLIDE
 ## Custom Dimension
 <br>
-Calls tracker from:
+###Calls tracker from:
 * Admin UI: Regex on URL, page title in Action scope
 * Client-side API (JS)
 * Server-side (PHP)
+  * Modules for Drupal/WordPress etc
 * Query string param!
-..* Modules for PHP-based CMS
 
 ```JavaScript
-$(".views-field-field-s3-file-upload span").click(function() {
+$(".views-field-field-s3-file-upload").click(function() {
 	_paq.push(['setCustomDimension', 1, 'dimensionValue']);
 });
 ```
-Then Segment, no scope needed for dimensions!
+Then segment, no scope needed for dimensions!
 
 #HSLIDE
 ## Goals /Conversions
 ### Outcomes you are looking for
-* Logged-in and downloaded material
-* Long session
-* Added items to reading list
+* Session -> downloaded more than 3 items
+* Session -> watched tutorial
+* Referred by email -> bookmarked items for later
 
-<br>
-Metric x Goal
-
+#HSLIDE
+## Metric x Goal
 ![Image-Absolute](assets/socialreferrals.png)
 
 #HSLIDE
@@ -89,3 +88,4 @@ Does GA even care?
 
 #HSLIDE
 More varied viz - let's build it
+:shipit:

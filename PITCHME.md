@@ -1,6 +1,6 @@
 #VSLIDE
 
-![Image-Relative](https://upload.wikimedia.org/wikipedia/commons/f/f4/Piwik_2.0_logo.svg)
+![Image-Absolute](assets/piwik.png)
 ### Alternative Web Analytics
 
 <span style="font-size: 0.6em; font-style: italic; float: right;">Schatz
